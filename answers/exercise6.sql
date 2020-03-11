@@ -1,5 +1,5 @@
 SElECT COUNT(*)
 FROM Students
-Where COUNT(*) > 10
 Group by Country
+Having COUNT(*)>10
 ORDER BY COUNT(*) DESC
